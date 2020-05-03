@@ -1,0 +1,267 @@
+<body>
+    <style type="text/css">
+    .backimg{
+        height:1000px;
+        width:1700px;
+        border:1px solid black;
+        background-image:url(background.jpg);
+        background-size:cover; 
+    }
+    .title{
+  height:auto;
+  width:100%;
+  font-size:120px;
+  font-family:fredoka One;
+  padding:20px;
+  background-image: linear-gradient(rgba(0, 754, 256, 0.5), rgba(143, 143, 138, 0.5)); 
+
+}
+.frame{
+  display:flex;
+  flex-direction:row;
+  
+}
+.next{
+  display:flex;
+  flex-direction:row;
+  
+}
+.box1{
+  height:200px;
+  width:200px;
+  margin:20px;
+  background-color: gray;
+  border-radius:20px; 
+  
+}
+.box2{
+  height:60px;
+  width:200px;
+  margin-left:50px;
+  border-radius:20px; 
+  align:center;
+  
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(240, 37, 98);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(218, 73, 162);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+ .box1, #pic1{
+  
+  background-image: url(krsma.jpg);
+  background-size: cover;
+  
+}
+.box1, #pic2{
+  background-size: cover;
+  background-image: url(sularasa.jpg);
+  
+  
+}
+.box1, #pic3{
+  background-size: cover;
+  background-image: url(wolftrapred.jpg);
+  
+}
+.box1, #pic4{
+  background-size: cover;
+  background-image: url(york.jpg);
+  
+}
+    </style>
+    </body>
+    
+    
+    <body>
+        <style type="text/css">
+        .head{
+      display:flex;
+      flex-direction:row; 
+      background:black;
+      height:auto;
+      padding:20px;
+      color:white;
+     
+    }
+    .head div{
+      flex-basis:100%;
+      height:10px;
+       align:center;
+       margin:0px 20px 0px 20px;
+    }
+    .backimg{
+        height:600px;
+        width:1600;
+        border:1px solid black;
+      background-image:url(krsma1.jpg);
+        background-size:cover;
+        }
+    .boxes{
+        height:600px;
+        width:1600px;
+        border:1px solid black;
+        background-image:url(brown.jpg);
+        background-size:cover;
+    
+    }
+    #table{
+        height:100px;
+        width:100px;
+        padding:2px;
+        float:left;
+        border:1px blue;
+    }
+    #krisma{
+        margin:200px;
+        font-family:cambria;
+        font-size:40;
+        
+    }
+    #text{
+        margin:5px 100px 5px 100px;
+        font-family:cambria;
+        font-size:40;
+        color:brown;
+    }
+    .boxes{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns:300px 300px 300px 300px 300px;
+      grid-template-rows:300px 300px 300px 300px 300px;
+        
+    
+    }
+    .boxes div{
+       
+      barder-radius:10px;
+      
+    }
+    .boxes2{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns:300px 300px 300px 300px 300px;
+      grid-template-rows:40px 40px 40px 40px 40px;
+       padding:15px;
+       margin:35px 0px 0px 5px;
+       
+       font-size:40px;
+       text-align:center;
+    
+    }
+    .boxes, #krsma2{
+        background-image:url(krsma2.jpg);(!important) 
+        background-size:300px;
+        background-repeat: no-repeat;
+    
+    }
+    .boxes, #krsma3{
+        background-image:url(krsma3.jpg);
+        background-size:300px;
+        background-repeat: no-repeat;
+    
+    }
+
+    <body>
+    <style type="text/css">
+    .head{
+  display:flex;
+  flex-direction:column; 
+  background:rgba(185, 123, 118, 0.815);
+  height:auto;
+  padding:30px;
+  color:white;
+  line-height:40px;
+
+ 
+}
+.head div{
+  flex-basis:100%;
+  height:75px;
+   align:center;
+   margin:0px 20px 0px 20px;
+   font-size:25;
+   font-family:Verdana;
+}
+.backimg{
+    height:800px;
+    width:1600;
+    border:1px solid black;
+  background-image:url(sula1.jpg);
+    background-size:cover;
+    margin-top:20px;
+    }
+.box2{
+    display:flex;
+  flex-direction:row; 
+}
+.box3{
+    display:flex;
+  flex-direction:row; 
+}
+#line{
+    height:340px;
+    width:1600px;
+  padding:10px;   
+    float:left;
+    border:1px dotted black;
+}
+#line2{
+    height:70px;
+    width:1600px;
+  padding:10px;   
+    float:left;
+    border:1px dotted black;
+    text-align:center;
+}
+#line1{
+    height:300px;
+    width:250px;
+  padding:10px;   
+    float:left;
+    border:1px dotted black;
+    margin:10px;
+}
+#name{
+    height:auto;
+    width:250px;
+  padding:10px;   
+    float:left;
+    border:1px dotted black;
+    margin:10px;
+    Font-size:20px;
+}
+
+
+
+#krisma{
+    margin:200px;
+    font-family:cambria;
+    font-size:40;
+    color:white;
+    
+}
+    </style>
+    </body>
